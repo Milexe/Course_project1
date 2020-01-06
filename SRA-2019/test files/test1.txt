@@ -1,0 +1,35 @@
+number function testnumber(number x, string k)
+{
+  var number y;
+  y = (x + x)*k;
+  print y;
+return y;
+};
+string function teststring(string a)
+{
+return a + " Changed";
+};
+main
+{
+ var number x;
+ var number y;
+ var number z;
+ var string sa;
+ var string sb;
+ var string sr;
+ x = -10/-5;
+ print x; 
+z = _modint(18,13); 
+sa = "Roman";
+ sb = " sdelal";
+ sb = sa + sb + " " + "kursovoi";
+ print sb;
+sr = _strcat(sa," molodec");
+print sr;
+ sb = _strcpy(sr, sa);
+print sr;
+var number te = testnumber(2,2);
+print te;
+print teststring(sa);
+
+}

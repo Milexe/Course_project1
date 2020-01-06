@@ -1,0 +1,7 @@
+cd ..
+dvp.lnk
+cd F:\Курсач\Kurs\SRA-2019\ASM
+ml /c /nologo /Zi "ASM.asm"
+link /OPT:NOREF /SUBSYSTEM:CONSOLE ASM.obj "F:\Курсач\Kurs\SRA-2019\Debug\kernel32.lib" "F:\Курсач\Kurs\SRA-2019\Debug\userlib.lib"
+call ASM.exe
+			
